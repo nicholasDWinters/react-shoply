@@ -9,7 +9,7 @@ const ShoppingList = ({ products }) => {
     return (
         <div>
             {keyValuePairs.map(pair =>
-                <Product key={pair[0]} product={pair[1]} />
+                <Product key={pair[0]} productId={pair[0]} product={pair[1]} />
             )}
 
         </div>
